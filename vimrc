@@ -8,7 +8,7 @@ set showcmd
 set list
 
 " use the same symbols as TextMate for tabstops and EOLs
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,trail:·
 
 " show line numbers
 set number
@@ -242,7 +242,7 @@ nnoremap <leader>p :CtrlP<CR>
 " List all files with a patern in buffer
 nnoremap <leader>P :CtrlPBuffer<CR>
 
-" switch to last used buffer
+" switch to last usedi buffer
 nnoremap <leader>l :e#<CR>
 
 " YankRing mapping
